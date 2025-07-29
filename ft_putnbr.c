@@ -15,9 +15,4 @@ void ft_putnbr(int nb){
     ft_putnbr(nb / 10); //123/10=12..1
     putchr(nb % 10);
     break;
-    }
-}
-int main(){
-    ft_putnbr(12674473);
-    return 0;
-}
+    }}
